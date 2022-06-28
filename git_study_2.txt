@@ -14,3 +14,7 @@ git init (初期)
 3.コード書く
 4.add
 5.commit
+
+githubでリポジトリを作成
+git branch -M main //mainブランチに変更
+//ブランチはゲームのセーブデータのようなもの
