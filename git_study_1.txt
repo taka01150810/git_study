@@ -1,0 +1,33 @@
+Git 初期設定(ユーザー情報)
+git config --global user.name 'xxx' // ユーザー名の設定
+git config --global user.email 'xxx' // パスワードの設定
+git config --list // 設定を見る
+
+Git 初期設定(鍵のペア)
+SSH接続するために鍵のペアをつくる
+公開鍵(public key)
+秘密鍵(secret/private key)
+
+鍵を作る準備
+cd ~ // ホームフォルダに移動
+mkdir .ssh // フォルダ作る
+ls -a // .ssh フォルダができている事を確認
+cd .ssh // .ssh フォルダに移動
+
+鍵を作る
+ssh-keygen -t ed25519 -C "メールアドレス" //gen = generate
+もしくは
+ssh-keygen -t rsa -b 4096 -C "メールアドレス" //gen = generate
+//ed25519やrsaというのは鍵の作り方
+
+//結果
+ホームフォルダ/.ssh の中に
+id_ed25519 // 秘密鍵
+id_ed25519.pub // 公開鍵
+が生成されていればOK
+RSAの場合は
+id_rsa // 秘密伴
+id_rsa.pub // 公開伴
+
+疎通確認
+ssh -T git@github.com と入力
