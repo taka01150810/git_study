@@ -57,3 +57,8 @@ git pull / git pull origin main
 git branch -vv
 上流ブランチの変更
 git branch -u リモートリポジトリ名/ブランチ名
+
+push時に気をつける事
+
+.gitignore
+GitHubにアップしたくないファイル・フォルダを書いておく
