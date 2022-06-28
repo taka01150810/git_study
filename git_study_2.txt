@@ -18,3 +18,13 @@ git init (初期)
 githubでリポジトリを作成
 git branch -M main //mainブランチに変更
 //ブランチはゲームのセーブデータのようなもの
+
+どのremoteに送るのか設定
+git remote add origin https://github.com/taka01150810/git_study.git
+
+git remote -v
+//結果
+origin	https://github.com/taka01150810/git_study.git (fetch)
+origin	https://github.com/taka01150810/git_study.git (push)
+
+git push -u origin main //mainはブランチ
