@@ -28,3 +28,8 @@ origin	https://github.com/taka01150810/git_study.git (fetch)
 origin	https://github.com/taka01150810/git_study.git (push)
 
 git push -u origin main //mainはブランチ
+
+2回目以降は3つのコマンド
+git add . // VSCode上で追加ファイルも見れる
+git commit -m "コメント" //VSCode上GitGraphでIDも見れる
+git push origin main //リモート名 リモートブランチ
