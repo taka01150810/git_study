@@ -1,0 +1,8 @@
+Git ざっくり図
+https://gyazo.com/a1f4bf494bc69977ea68d0f6cc954ba0
+
+add //セーブしたい内容を追加
+add . //変更した全てのファイルを追加する
+commit //セーブポイント
+commit -m "コメント" //コメント
+push //アップロード
