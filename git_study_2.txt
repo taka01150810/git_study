@@ -33,3 +33,10 @@ git push -u origin main //mainはブランチ
 git add . // VSCode上で追加ファイルも見れる
 git commit -m "コメント" //VSCode上GitGraphでIDも見れる
 git push origin main //リモート名 リモートブランチ
+
+macで毎回パスワードを聞かれる
+GitHubの認証を
+パスワード認証 -> トークン認証に移行
+git-credential-osxkeychainという
+パスワード入力を省略できる機能が使われていてその情報が残っている
+スポットライトで keychain access と入力し右クリックで削除したらパスワードは聞かれない
