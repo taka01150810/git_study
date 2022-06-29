@@ -1,0 +1,12 @@
+git branch(ブランチ)
+セーブデータのように
+途中でコードの進行を分岐できる
+さらに後でマージ(結合)もできる
+https://gyazo.com/93555c255872881a576aee7c27337f0e
+
+git branch // ブランチの確認
+git branch <new> // ブランチの作成
+git branch -m <old> <new> // ブランチ名変更
+git switch <ブランチ名> // ブランチの切替
+git siwtch -c <ブランチ名> // ブランチ作成 + 切替
+git branch -d <ブランチ名> // ブランチの削除
