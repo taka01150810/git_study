@@ -10,3 +10,12 @@ git clone <gitHubのurl>
 
 git clone ブランチ指定
 git clone -b <ブランチ名> <gitHubのurl>
+
+git pull (fetch + merge) -> 差分ダウンロード + マージ
+git pull origin <ブランチ名>
+
+git pull のwarning
+Git 2.27.0で導入されたメッセージ
+rebase false //デフォルトの挙動
+rebase true //--rebase実行(コミット履歴一直線)
+ff only //fast-forward
