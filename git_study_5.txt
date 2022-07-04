@@ -1,0 +1,12 @@
+リモートからダウンロード
+大きく3種類
+git clone 丸ごとダウンロード
+git pull 差分ダウンロードしてマージ
+git fetch 差分確認
+
+git clone 丸ごとダウンロード
+->デフォルトブランチをダウンロード
+git clone <gitHubのurl>
+
+git clone ブランチ指定
+git clone -b <ブランチ名> <gitHubのurl>
