@@ -19,3 +19,16 @@ Git 2.27.0で導入されたメッセージ
 rebase false //デフォルトの挙動
 rebase true //--rebase実行(コミット履歴一直線)
 ff only //fast-forward
+
+git fetch は差分ダウンロード
+git fetch するとリモート追跡リポジトリが更新される
+git branch -a //ブランチ名確認
+結果 https://gyazo.com/bb67683b26a70b3e4b40643e1d3a7e72
+->赤字がリモート追跡リポジトリ。remotes/origin/mainなど
+
+差分の確認方法
+git diff origin/ブランチ名
+git log origin/ブランチ名 --oneline
+ 
+差分確認後のマージ
+git merge <ブランチ名>
