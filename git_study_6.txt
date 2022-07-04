@@ -26,3 +26,13 @@ git clean -f <ファイル名>
 ファイル変更を取り消す
 git restore <フォルダ/ファイル> //ファイル取消
 git restore . //add全て取消 -> リモート追跡リポジトリとの比較
+
+addを取り消したい
+-> VSCodeのソース管理からでも消せる
+->簡単
+
+git restore --staged <フォルダ/ファイル> //ファイル取消
+git restore --staged . //add全て取消
+
+git reset <ファイル> //ファイルの取消
+git reset //addを全て取消
