@@ -36,3 +36,17 @@ git restore --staged . //add全て取消
 
 git reset <ファイル> //ファイルの取消
 git reset //addを全て取消
+
+//commitを取り消したい
+git reset --soft HEAD^
+//ステージ後まで戻す
+
+git reset --mixed HEAD^
+//ステージ前まで戻す
+
+git reset --hard HEAD^
+//ファイルの変更まで取り消す
+
+//HEAD・・現在の場所
+//resetはcommitをなかったことにする
+//コミットID指定時は最新の1つ前のIDを指定する
