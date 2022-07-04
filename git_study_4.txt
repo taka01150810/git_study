@@ -1,0 +1,17 @@
+補助系のコマンド
+
+git status //コミット前のファイル確認
+
+git log //全コミットログ
+git log --oneline //1行
+git log --graph //グラフ表示
+-> qで抜けられる
+
+git config -l // 設定確認
+
+git --version // バージョン確認
+
+git diff //前コミットからの変更を確認(前にあったファイルのみ)
+
+git diff <ブランチ名> <ブランチ名>  //ブランチ間の差分
+git diff <commit_id> <commit_id> <name_of_file> //コミット間の差分
