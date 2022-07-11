@@ -87,3 +87,8 @@ https://gyazo.com/97737c88181200d6b08484fb04c54781
 履歴を残さない git reset --hard ORIG_HEAD
 参考図
 https://gyazo.com/ac9a197032e0c12af92f3fe0d6a324fb
+
+commitコメントを修正したい
+最新コミットのコメントを修正する
+commit --amend -m '修正後のコメント'
+//push したものを変更するとコンフリクト発生するので要注意
