@@ -70,3 +70,10 @@ resetはコミット毎削除
 revertは打ち消しコミットをつくる
 参考図
 https://gyazo.com/bce0da436581b78b1cab96d32952f102
+
+pull requestを取り消したい
+プルリク前後に取り消す (マージ前)
+git push --delete origin <branch名>
+/* github上の結果
+https://gyazo.com/bd1b3feda4c030991806e4388556ac42
+*/
