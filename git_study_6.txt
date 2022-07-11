@@ -80,3 +80,10 @@ https://gyazo.com/bd1b3feda4c030991806e4388556ac42
 
 mergeしたプルリクを取消したい
 https://gyazo.com/97737c88181200d6b08484fb04c54781
+
+ローカルマージを取り消したい
+マージコミット
+履歴を残す git revert -m 1 <コミットID> //数字は git show , git log で確認
+履歴を残さない git reset --hard ORIG_HEAD
+参考図
+https://gyazo.com/ac9a197032e0c12af92f3fe0d6a324fb
