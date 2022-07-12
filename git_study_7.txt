@@ -1,0 +1,22 @@
+コンフリクトが起きた時にはスタッシュ(隠し場所)を行う。
+
+スタッシュ (隠し場所)
+スタッシュはコミット後コードを書いていてマージなどするとぶつかるので
+一旦、退避させておく
+イメージ図
+https://gyazo.com/8450a9075bf5e9888aebe2928d6f3706
+
+git stash
+git stash save <コメント>
+git stash save -u <コメント> //未追跡も退避
+git stash list //stashの表示
+git show stash@{1} 1つ前の内容
+
+git stash apply...スタッシュをマージするがスタッシュを残す
+git stash drop...スタッシュを消す
+git stash pop...スタッシュをマージできたからスタッシュを消すs
+イメージ図
+https://gyazo.com/d952bd6ea3aebed1672b60dcbadd4695
+
+git stash xxx stash@{1} 何番目かを指定できる
+番号指定がなければ最新のstashが対象になる
