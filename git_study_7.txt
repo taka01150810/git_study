@@ -50,3 +50,7 @@ git pull実施するとリモートからダウンロードされ
 リモートからローカル (pullできない commit後)
 ローカルでcommit済みの場合git pullをすると
 マージ確認画面になり、マージ後改めてgit push でアップロード可能
+
+リモートからローカル (ローカルでadd済み commit前の場合)
+commitしてない分が消える。
+なのでcommitするかstashで一旦退避するか
