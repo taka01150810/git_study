@@ -88,3 +88,8 @@ https://gyazo.com/542a80899bf160189cf201b463f86137
 ->右上のReview Changeクリック
 Comment  Approve  Request changes
 から1つを選ぶ
+
+permanent(永続)
+ブランチの変更に関わらずリンクが残る機能
+コード選択 -> ...マークをクリックで選択 -> copy permalink
+https://gyazo.com/a3b681122c3e0b75f009a7721e06d96e
