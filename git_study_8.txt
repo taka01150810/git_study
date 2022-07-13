@@ -78,3 +78,13 @@ Settings -> Branches ->protection rules -> レビューまたはステータス�
 第３者が見ると想定して見やすい、レビューしやすい内容にしておきたい 
 手順
 https://docs.github.com/ja/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
+
+プルリクのレビュー
+画面右のReviewers からレビュー依頼する人を選択
+https://gyazo.com/542a80899bf160189cf201b463f86137
+①＋ボタンでレビューをする
+②Add single comment //1行コメント。相手にメール。
+③Start a review //複数コメント記入
+->右上のReview Changeクリック
+Comment  Approve  Request changes
+から1つを選ぶ
