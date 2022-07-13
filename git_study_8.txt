@@ -114,3 +114,9 @@ Github -> issues -> New issues -> issuesを書く -> submit new issue
 イシューIDが発行されるので、commitのコメント内に #番号 を追記することで簡単に紐づけることができる
 結果
 https://gyazo.com/bbf5f5560cee5df654e24ca3d1a5d937
+
+Issuesの機能
+画面右側から設定可能
+Assignees...担当者アサイン
+Labels...ラベル(それぞれフィルターもできる)
+https://gyazo.com/4f15aaa407c902b78ec5c63c9eb7ac06
