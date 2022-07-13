@@ -69,3 +69,8 @@ hotfixes バグ修正
 release リリース手前のテスト用
 feature 新機能
 
+直接pushの禁止
+https://gyazo.com/bbd8996635f334a22796e94575801b38
+ブランチの保護
+Settings -> Branches ->protection rules -> レビューまたはステータスチェックを必須にする
+
