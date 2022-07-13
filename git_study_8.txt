@@ -54,3 +54,9 @@ git remote add origin git@github.com.sub:username/repository-name.git
 
 // git のurl確認
 git config remote.origin.url 
+
+ユーザーの招待
+Github -> Settings -> Collaborators -> Add people 
+で招待したい人のアカウント名などを指定すると招待メールが飛びます。
+
+招待された人が受け入れるとprivateリポジトリでも表示されるようになります。
