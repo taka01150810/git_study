@@ -60,3 +60,12 @@ Github -> Settings -> Collaborators -> Add people
 で招待したい人のアカウント名などを指定すると招待メールが飛びます。
 
 招待された人が受け入れるとprivateリポジトリでも表示されるようになります。
+
+Git Flow
+チーム開発におすすめのブランチモデル
+main リリース用
+develop 開発用
+hotfixes バグ修正
+release リリース手前のテスト用
+feature 新機能
+
