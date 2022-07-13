@@ -105,3 +105,12 @@ GitHub Team / Enterprise Cloud / Enterprise Server
 
 PR作成時に draftを選べるようになる
 準備できたら Ready for reviewをクリックする事でマージ可能になる
+
+Issues(課題、問題)
+タスク(やる事)を発行し、commitと紐づけられる機能
+機能・改善・バグ修正 etc...
+Github -> issues -> New issues -> issuesを書く -> submit new issue
+
+イシューIDが発行されるので、commitのコメント内に #番号 を追記することで簡単に紐づけることができる
+結果
+https://gyazo.com/bbf5f5560cee5df654e24ca3d1a5d937
