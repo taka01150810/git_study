@@ -93,3 +93,15 @@ permanent(永続)
 ブランチの変更に関わらずリンクが残る機能
 コード選択 -> ...マークをクリックで選択 -> copy permalink
 https://gyazo.com/a3b681122c3e0b75f009a7721e06d96e
+
+Draft Pull Request
+PRをDraft(下書き)にすると、作業中というのを明確にできる
+(Draftでもレビュアー設定をすると通知が飛ぶので注意)
+
+パブリックで対応・プライベートで非対応
+GitHub Free / GitHub Pro
+パブリック・プライベート対応
+GitHub Team / Enterprise Cloud / Enterprise Server
+
+PR作成時に draftを選べるようになる
+準備できたら Ready for reviewをクリックする事でマージ可能になる
