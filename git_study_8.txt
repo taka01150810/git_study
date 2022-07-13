@@ -1,0 +1,56 @@
+SSHキー設定
+複数アカウントの流れ
+1.サブ用のメールアドレスで
+  GitHubにアカウントを作成する
+2.パソコンでサブ用のsshキー作成
+3.~/.ssh/config ファイル作成し追記
+4.GitHub(サブアカウント)に公開鍵を登録する
+5.疎通確認
+6.運用時の設定 (gitconfig, cloneなど)
+
+2.パソコンでサブ用のsshキー作成
+サブ用のSSHキーを作成
+ssh-keygen -t ed25519 -C "メールアドレス" -f "SSHキーの名前指定"
+-fでSSHキーの名前指定
+
+3.~/.ssh/config ファイル作成し追記
+~/.ssh/config (なければ作成)
+Host github.com #メインアカウント
+ HostName github.com
+ User git
+ Port 22
+ IdentityFile ~/.ssh/id_ed25519 #メインアカウント用の伴
+ TCPKeepAlive yes
+ IdentitiesOnly yes
+
+Host github.com.sub #サブアカウント
+ HostName github.com
+ User git
+ Port 22
+ IdentityFile ~/.ssh/id_ed25519_sub　 #サブアカウント用の伴
+ TCPKeepAlive yes
+ IdentitiesOnly yes
+
+公開鍵登録 & 疎通確認
+4. GitHubに公開鍵を登録する
+Github -> setting -> SSH and GPG keys -> 作成したSSHキーの公開鍵を登録
+
+5. 疎通確認 (configのHostに設定した名前をターミナルで確認)
+ssh -T git@github.com
+ssh -T git@github.com.sub
+
+6. 運用 gitconfigの設定
+普段使う方は global
+リポジトリ毎に切り替える場合は local
+
+cd リポジトリ名
+git config --local user.name ユーザー名
+git config --local user.name メールアドレス
+
+運用でcloneする場合
+// configに設定したHostを指定する
+git clone git@github.com.sub:username/repositoryname.git
+git remote add origin git@github.com.sub:username/repository-name.git
+
+// git のurl確認
+git config remote.origin.url 
