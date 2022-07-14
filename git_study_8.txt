@@ -139,3 +139,27 @@ https://gyazo.com/cdfe50a6af50dbe9de7cf53a464d45e5
 Issue発行時右側メニューからマイルストーンを選ぶ
 https://gyazo.com/81e572fed47d7421cbeca7e4bd245aa2
 
+Gitの機能
+tagをつけるとtagのついたコミットだけを一覧で表示できる
+バージョン毎につけられる事が多い(ver1.0など)
+
+//タグをコミットにつける
+git tag -a <タグ名> -m 'コメント' <コミット名>
+
+//コミット指定しないと現在ブランチの最新コミットに付与
+git tag -a <タグ名> -m 'コメント'
+
+//タグ一覧表示
+git tag
+
+//タグのアップロード
+git push origin <タグ名>
+
+//タグ削除
+git tag -d <タグ名>
+
+//git clone でタグ指定も可能
+git clone -b <タグ名> URL
+
+Github上
+https://gyazo.com/ab5a8460fa7c259bf64f945d8d539f6f
