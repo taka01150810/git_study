@@ -233,3 +233,10 @@ Github上 -> Discussions
 New category -> Questions & Answer を選択
 //結果 回答後にマークをつける事ができる(mark as answer)
 https://gyazo.com/504d1613a9e740b8693170d97cebbd53
+
+Wiki
+ユーザーが共同してコンテンツを編集する仕組み
+Discussionsと違いやりとりは残らない
+エンジニア職以外も見やすい 
+
+Github上 -> Wiki -> NewPageで新規作成
