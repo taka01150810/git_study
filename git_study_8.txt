@@ -214,3 +214,9 @@ https://gyazo.com/d67d6617c0c496faf31492eb7f3f6f0b
 列のカスタム
 Settings -> Custom Fields
 https://gyazo.com/881d6d5b561ba31022f49e9758d6a643
+
+GitHubのPRやIssueで使える絵文字の一覧
+https://www.webfx.com/tools/emoji-cheat-sheet/
+
+オートコンプリート機能
+https://github.blog/2012-10-12-emoji-autocomplete/
