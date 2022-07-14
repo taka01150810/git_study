@@ -127,3 +127,15 @@ PRのテンプレートのようにIssueでもテンプレートを作成でき�
 
 Issueテンプレートを設定する
 https://docs.github.com/ja/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+
+Milestones(重要な中間目標地点)
+期限付きの中間地点
+複数のIssueを紐づけることができる
+https://gyazo.com/0ae2e7dbfe1faa9613652254ea14db63
+
+紐づくIssueの数・状況に応じて進捗(%表示)、open、closedの数が表示される
+https://gyazo.com/cdfe50a6af50dbe9de7cf53a464d45e5
+
+Issue発行時右側メニューからマイルストーンを選ぶ
+https://gyazo.com/81e572fed47d7421cbeca7e4bd245aa2
+
