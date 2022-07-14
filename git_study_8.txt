@@ -163,3 +163,34 @@ git clone -b <タグ名> URL
 
 Github上
 https://gyazo.com/ab5a8460fa7c259bf64f945d8d539f6f
+
+Projects
+IssueやPRを列・カードに分け進捗管理しやすい仕組み
+イメージ図
+https://gyazo.com/8f04e8eadd145a0727631fbb8cdd1e5e
+
+Projects (Beta)
+スプレッドシート & カンバン方式(リポジトリに紐付けできない)
+Projects (classic)
+カンバン方式
+
+Projects (classic)の作り方
+Templates列の作成
+IssueやPRの状況で自動で動かす設定
+Github
+Project -> New Project(https://gyazo.com/f9b99198e68c84bffe5260b3da7c2b72) -> https://gyazo.com/251a686a6b77f0ac11f5b30651804a3e
+
+自動で移動する設定
+列の ••• から Manage automation
+-> https://gyazo.com/3489fbc82da338032e849691db55126a
+
+Project templateがAutomated kanban with Reviews
+IssueやPR発行時に右側メニューのProjectsも選択すると状況変化時に自動で列を移動する
+ToDo...Issue発行時
+In Progress...プルリク発行時
+Review In Progress...レビュー時
+Review Approved...レビュー承認
+Done...close後
+
+ノートを作り、ノートをIssueに変換することもできる
+https://gyazo.com/aea8b842bd869624ea182be920445558
