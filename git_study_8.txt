@@ -194,3 +194,23 @@ Done...close後
 
 ノートを作り、ノートをIssueに変換することもできる
 https://gyazo.com/aea8b842bd869624ea182be920445558
+
+Projects(Beta)
+Projects (classic)との違い
+①テーブル表示 (カンバンも可)
+②新たな列を自由に追加できる
+③検索機能の強化
+④フィルター機能の強化
+⑤リポジトリではなくアカウントに紐づくプロジェクト(リポジトリを横断した確認もしやすい)
+
+Project -> add Project -> Go to your profile to create a new project -> new Project
+https://gyazo.com/8dae721a7a831bddd2c76c19be682cd6
+
+Workflow
+画面右上の ••• -> Workflow
+条件に応じてカードの移動
+https://gyazo.com/d67d6617c0c496faf31492eb7f3f6f0b
+
+列のカスタム
+Settings -> Custom Fields
+https://gyazo.com/881d6d5b561ba31022f49e9758d6a643
