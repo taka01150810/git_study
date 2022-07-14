@@ -240,3 +240,42 @@ Discussionsと違いやりとりは残らない
 エンジニア職以外も見やすい 
 
 Github上 -> Wiki -> NewPageで新規作成
+
+GitHub Actions
+GitHubが提供するCI/CDのためのワークフローエンジン(テスト、ビルド、デプロイ etc...)
+CI/CDとは「Continuous Integration（継続的インテグレーション）/ Continuous Delivery（継続的デリバリー）」の略称。
+CIはコードを書いてマージすること。CDは本番環境に移すこと。
+
+GitHubの様々なイベントにフックして自動処理を実行
+
+用途例
+・push時に自動テスト実行
+・PR作成時にSlackに通知
+・PRマージ後にブランチの自動削除
+・issue登録時に担当者自動割り当て
+・issue登録時に自動でProjectsに追加
+・一定期間放置されたissueをcloseする
+etc..
+
+GitHub Actionsはワークフローファイルを作ってどのイベントでどんな内容を処理するのかコードを書く
+Event: push など
+Runner: 実行環境 ubuntu-latest など
+Job: 実行したい処理をまとめたもの
+Step: 実行したい処理
+
+マニュアル
+https://docs.github.com/ja/actions
+
+ワークフローの定義
+.github/workflows/hello.yml //設定ファイル
+
+設定ファイルの中身
+name: Hello, World # ワークフロー名
+on: push # イベント
+
+jobs: # ジョブ
+ my_first_job: #ジョブのID
+ name: Greeting #ジョブ名
+ runs-on: ubuntu-latest #実行される仮想環境
+ steps: #ジョブ内で実行される処理
+ - run: echo "hello, world"
