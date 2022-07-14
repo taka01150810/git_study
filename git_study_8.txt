@@ -220,3 +220,16 @@ https://www.webfx.com/tools/emoji-cheat-sheet/
 
 オートコンプリート機能
 https://github.blog/2012-10-12-emoji-autocomplete/
+
+Discussions
+使う用途
+①新たに参加した人向けに読んで欲しい情報をまとめる
+②Announcements: リリースノート (メモ等)
+③Ideas: アイデア帳
+④Q＆A: 質問箱
+
+Github上 -> Discussions
+
+New category -> Questions & Answer を選択
+//結果 回答後にマークをつける事ができる(mark as answer)
+https://gyazo.com/504d1613a9e740b8693170d97cebbd53
