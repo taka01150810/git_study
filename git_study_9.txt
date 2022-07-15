@@ -1,0 +1,16 @@
+GitHub Pages
+->静的サイトのホスティングサービス
+(HTML・CSS・JS)
+
+内部でJekyll(ジキル)を使い構築している
+独自ドメインを設定することもできる
+
+index.html、index.md、README.md の順で表示
+注意事項
+①privateリポジトリの場合Proアカウントが必要
+②商用利用不可
+③1GBの推奨上限
+
+手順
+index.htmlなどで書く -> Setting -> Pages -> Save
+結果 URLが生成され、ページが作れる。
