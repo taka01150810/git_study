@@ -30,3 +30,17 @@ git cherry-pick コミットID コミットID //複数同時
 --abort //チェリーピックをなかった事にする
 イメージ図
 https://gyazo.com/e321191afe8d410b754c88e02d1b71a9
+
+git rebase
+commit履歴をキレイにする
+->①2つのcommitの履歴を一直線にする
+イメージ図
+https://gyazo.com/ad4a3c6fe18b5513ee45e76d230b33c0
+コマンド
+git rebase ブランチ名
+
+->②複数のcommitを1つのcommitにまとめる
+イメージ図
+https://gyazo.com/37ea11d4993c450ef52edea5042a3b22
+コマンド
+git rebase -i コミットID
