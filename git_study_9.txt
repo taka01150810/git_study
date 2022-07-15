@@ -14,3 +14,19 @@ index.html、index.md、README.md の順で表示
 手順
 index.htmlなどで書く -> Setting -> Pages -> Save
 結果 URLが生成され、ページが作れる。
+
+git cherry-pick
+さくらんぼのように熟れた実だけを取る
+->欲しいコミットだけ選んでマージする
+
+コマンド
+git cherry-pick コミットID // 1件
+git cherry-pick コミットID コミットID //複数同時
+
+オプション
+--skip //現在のコミットをスキップする
+--continue //チェリーピックを続行
+--quit //チェリーピックを止める
+--abort //チェリーピックをなかった事にする
+イメージ図
+https://gyazo.com/e321191afe8d410b754c88e02d1b71a9
